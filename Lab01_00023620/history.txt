@@ -1,0 +1,37 @@
+    1  ls
+    2  brew install gnupg
+    3  sudo apt install gnupg
+    4  –full-generate-key
+    5  gpg–full-generate-key
+    6  gpg
+    7  gpd --full-generate-key
+    8  gpg --full-generate-key
+    9  gpg --output my_revocation_certificate.asc --gen-revoke <key>
+   10  gpg --output my_revocation_certificate.asc --gen-revoke 00023620@uca.edu.sv
+   11  gpg --list-keys
+   12  gpg --list.secret-keys
+   13  gpg --list-secret-keys
+   14  gpg --output nextor.gpg --export naldana@uca.edu.sv
+   15  gpg --output nextor.gpg --export 00023620@uca.edu.sv
+   16  gpg --armor --export 00023620@uca.edu.sv
+   17  gpg --export-secret-keys --armor 00023620@uca.edu.sv ./my-priv-gpg-key.asc
+   18  touch miguel.gpg
+   19  ls
+   20  nano miguel.gpg 
+   21  gpg --import ~/Downloads/miguel.gpg
+   22  gpg --import ~/miguel.gpg
+   23  gpg --list-keys
+   24  gpg --edit-key 00087518@uca.edu.sv
+   25  gpg --list-keys
+   26  ls
+   27  nano nextor.gpg 
+   28  touch nexxtor.gpg
+   29  nano nexxtor.gpg 
+   30  gpg --import ~/nexxtor.gpg
+   31  gpg --edit-key naldana@uca.edu.sv
+   32  gpg --list-keys
+   33  ls
+   34  rm nextor.gpg 
+   35  ls
+   36  histori > histori.txt
+   37  history > history.txt
